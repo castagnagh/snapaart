@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    /* Para centralizar horizontalmente */
+}
+
+.video-container iframe {
+    display: block;
+}
+
+.dropdown-hover:hover .dropdown-menu {
+    display: block;
+}
+
+.h1,
+h1 {
+    margin-top: 6rem;
+
+}
+
+.img-fundo {
+    position: relative;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    padding: 20px;
+    z-index: 1;
+    /* Adicione essa propriedade para garantir que o texto fique acima da imagem de fundo */
+}
+
+.img-fundo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/fundosnapaart.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%) opacity(0.7) grayscale(0%);
+    z-index: -1;
+}
+
+.img-fundo-hotel {
+    position: relative;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    z-index: 1;
+    /* Adicione essa propriedade para garantir que o texto fique acima da imagem de fundo */
+}
+
+.img-fundo-hotel::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/fundohotel.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%) opacity(0.7) grayscale(0%);
+    z-index: -1;
+}
+
+.img-fundo-mapa {
+    position: relative;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    z-index: 1;
+    /* Adicione essa propriedade para garantir que o texto fique acima da imagem de fundo */
+}
+
+.img-fundo-mapa::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/fundomapa.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%) opacity(0.7) grayscale(0%);
+    z-index: -1;
+}
+
+.img-fundo-convite {
+    position: relative;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    z-index: 1;
+    /* Adicione essa propriedade para garantir que o texto fique acima da imagem de fundo */
+}
+
+.img-fundo-convite::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/fundoconvite.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%) opacity(0.7) grayscale(0%);
+    z-index: -1;
+}
+
+.jumbotron {
+    position: relative;
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.5rem;
+}

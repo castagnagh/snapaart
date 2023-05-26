@@ -18,4 +18,4 @@
 - Página responsiva.
 - Primeira vez utilizando o Bootstrap e primeira página responsiva.
 
-### O site por der acessado [clicando aqui](www.3gacap.eb.mil.br/snapaart)
+> O site por ser acessado [clicando aqui](www.3gacap.eb.mil.br/snapaart)

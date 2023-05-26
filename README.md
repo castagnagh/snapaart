@@ -1,7 +1,7 @@
 # SNAPAART
 ## Solenidade Nacional Alusiva ao Patrono da Arma de Artilharia
 
-- SNAPAART é um evento que ocorre anualmente para homenagear e celebrar o patrono da Arma de Artilharia das Forças Armadas. Durante a solenidade, são realizadas atividades como discursos, desfiles e retratos da participação do Marechal Emílio Luiz Mallet na Guerra.
+- SNAPAART é um evento que ocorre anualmente para homenagear e celebrar os feitos do patrono da Arma de Artilharia nas Forças Armadas. Durante a solenidade, são realizadas atividades como discursos, desfiles e retratos da participação do Marechal Emílio Luiz Mallet na Guerra.
 
 ## Objetivo
 
@@ -15,5 +15,7 @@
 
 ### Detalhes
 
-- Página totalmente estática e responsiva.
-- Primeira vez utilizando o Framework Bootstrap para o design.
+- Página responsiva.
+- Primeira vez utilizando o Bootstrap e primeira página responsiva.
+
+### O site por der acessado [clicando aqui](www.3gacap.eb.mil.br/snapaart)
